@@ -18,9 +18,16 @@
 
 ### Community Contributions
 
-| Project | What | Link |
-|---------|------|------|
-| **awesome-x402** (Coinbase CDP) | Added APIbase.pro to the x402 ecosystem catalog | [PR #157](https://github.com/xpaysh/awesome-x402/pull/157) — merged in [commit 36b1ee5](https://github.com/xpaysh/awesome-x402/commit/36b1ee5) |
+| Project | What | Status | Link |
+|---------|------|--------|------|
+| **x402-foundation/x402** | Feedback: x402 agent onboarding complexity | Open | [Issue #1759](https://github.com/x402-foundation/x402/issues/1759) |
+| **xpaysh/awesome-x402** (Coinbase CDP) | Added APIbase.pro to x402 ecosystem catalog | Merged | [PR #157](https://github.com/xpaysh/awesome-x402/pull/157) |
+| **tempoxyz/mpp** | Added APIbase as MPP-enabled MCP server | Open | [PR #455](https://github.com/tempoxyz/mpp/pull/455) |
+| **jaw9c/awesome-remote-mcp-servers** | Added APIbase remote MCP server | Open | [PR #157](https://github.com/jaw9c/awesome-remote-mcp-servers/pull/157) |
+| **tolkonepiu/best-of-mcp-servers** | Added APIbase project listing | Open | [Issue #100](https://github.com/tolkonepiu/best-of-mcp-servers/issues/100) |
+| **Rodert/awesome-mcp** | Added APIbase universal gateway | Open | [PR #4](https://github.com/Rodert/awesome-mcp/pull/4) |
+| **caramaschiHG/awesome-ai-agents-2026** | Added APIbase to AI agents list | Open | [PR #31](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/31) |
+| **qntx/x402-openai-python** | Feature request: MCP client + x402-fetch wrapper | Closed | [Issue #7](https://github.com/qntx/x402-openai-python/issues/7) |
 
 ### Published Content
 
