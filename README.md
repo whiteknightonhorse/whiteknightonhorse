@@ -1,40 +1,49 @@
-# Hey, I'm building APIbase.pro
+# Hi, I build payment infrastructure for AI agents
 
-**The API Hub for AI Agents** — a universal MCP gateway that gives AI agents access to 438+ real-world API tools through a single endpoint. Agents pay per call with x402 USDC micropayments on Base or MPP on Tempo.
+I run [APIbase.pro](https://apibase.pro), an MCP and REST gateway where AI agents find and pay for real-world APIs per call, in USDC, with no accounts or API keys. Payments go over **x402** on Base or **MPP** on Tempo. Based in Bangkok.
 
-### What I'm working on
+### What I'm building
 
-- [APIbase.pro](https://apibase.pro) — 438 tools, 132 providers, 21 categories
-- MCP (Model Context Protocol) server at `https://apibase.pro/mcp`
-- Dual-rail payments: x402 (Base mainnet) + MPP (Tempo blockchain)
-- Open source: [whiteknightonhorse/APIbase](https://github.com/whiteknightonhorse/APIbase)
+| Project | What it is | Links |
+|---|---|---|
+| **APIbase** | MCP + REST gateway: 1,400+ paid API tools from 400+ providers in 25 categories, one endpoint `https://apibase.pro/mcp`. Failed calls are not billed. | [site](https://apibase.pro) · [repo](https://github.com/whiteknightonhorse/APIbase) |
+| **Integrator** (part of APIbase) | Agent checkout for online shops. One "Buy with your AI agent" link on a product page; the agent gets a fixed quote and pays the shop's wallet directly. APIbase never holds funds. | [apibase.pro/integrator](https://apibase.pro/integrator) |
+| **MCP Protocol Tester** | Open-source test suite for paid MCP servers: discovery, x402 and MPP payment flows, replay and double-spend protection, payment-bypass attempts. | [repo](https://github.com/whiteknightonhorse/mcp-protocol-tester) |
+| **Provek** | Measures how much of a company runs without a human in the loop, per business operation, with the evidence behind every number. Public registry of tested projects. | [provek.dev](https://provek.dev) · [repo](https://github.com/whiteknightonhorse/provek) · [method](https://github.com/whiteknightonhorse/provek-method) |
+| **AIPUSH** | Free AEO analyzer: is a website ready for AI agents and answer engines? 0–100 score with copy-ready fixes. | [aipush.app](https://aipush.app) · [repo](https://github.com/whiteknightonhorse/AIpush) · [agent skills](https://github.com/whiteknightonhorse/aipush-agent-skills) |
 
 ### Listed on
 
 [![Smithery](https://img.shields.io/badge/Smithery-Live-brightgreen)](https://smithery.ai/servers/apibase-pro/api-hub)
 [![Glama](https://img.shields.io/badge/Glama-Live-blue)](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase)
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-Live-blue)](https://registry.modelcontextprotocol.io)
-[![MPPScan](https://img.shields.io/badge/MPPScan-Live-purple)](https://mppscan.com)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-Live-blue)](https://registry.modelcontextprotocol.io/v0/servers?search=apibase)
+[![awesome-x402](https://img.shields.io/badge/awesome--x402-Listed-orange)](https://github.com/xpaysh/awesome-x402)
 
-### Community Contributions
+### Writing
 
-| Project | What | Status | Link |
-|---------|------|--------|------|
-| **x402-foundation/x402** | Feedback: x402 agent onboarding complexity | Open | [Issue #1759](https://github.com/x402-foundation/x402/issues/1759) |
-| **xpaysh/awesome-x402** (Coinbase CDP) | Added APIbase.pro to x402 ecosystem catalog | Merged | [PR #157](https://github.com/xpaysh/awesome-x402/pull/157) |
-| **tempoxyz/mpp** | Added APIbase as MPP-enabled MCP server | Open | [PR #455](https://github.com/tempoxyz/mpp/pull/455) |
-| **jaw9c/awesome-remote-mcp-servers** | Added APIbase remote MCP server | Open | [PR #157](https://github.com/jaw9c/awesome-remote-mcp-servers/pull/157) |
-| **tolkonepiu/best-of-mcp-servers** | Added APIbase project listing | Open | [Issue #100](https://github.com/tolkonepiu/best-of-mcp-servers/issues/100) |
-| **Rodert/awesome-mcp** | Added APIbase universal gateway | Open | [PR #4](https://github.com/Rodert/awesome-mcp/pull/4) |
-| **caramaschiHG/awesome-ai-agents-2026** | Added APIbase to AI agents list | Open | [PR #31](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/31) |
-| **qntx/x402-openai-python** | Feature request: MCP client + x402-fetch wrapper | Closed | [Issue #7](https://github.com/qntx/x402-openai-python/issues/7) |
+| Date | Article |
+|---|---|
+| 2026-10-14 | [Your analytics shows AI agents on your site. Here is how we let them pay](https://dev.to/whiteknightonhorse/your-analytics-shows-ai-agents-on-your-site-here-is-how-we-let-them-pay-2afc) |
+| 2026-10-06 | [Agents that shop: what a16z's Top 100 consumer AI data says about agentic commerce](https://dev.to/whiteknightonhorse/agents-that-shop-what-a16zs-top-100-consumer-ai-data-says-about-agentic-commerce-4e8) |
+| 2026-05-27 | [Pay for any API from inside Claude with Base MCP + APIbase](https://dev.to/whiteknightonhorse/pay-for-any-api-from-inside-claude-with-base-mcp-apibase-443o) |
+| 2026-05-19 | [What happens to the $0.001 when an AI agent pays for an API call](https://dev.to/whiteknightonhorse/what-happens-to-the-0001-when-an-ai-agent-pays-for-an-api-call-389a) |
+| 2026-05-01 | [How we replaced our x402 payment facilitator in a single afternoon](https://dev.to/whiteknightonhorse/how-we-replaced-our-x402-payment-facilitator-in-a-single-afternoon-f84) |
 
-### Published Content
+All posts: [dev.to/whiteknightonhorse](https://dev.to/whiteknightonhorse)
 
-| Platform | Article | Date |
-|----------|---------|------|
-| dev.to | [What Happens When an AI Agent Pays for Its Own API Calls](https://dev.to/whiteknightonhorse/what-happens-when-an-ai-agent-pays-for-its-own-api-calls-4lbk) | 2026-03-19 |
+### Community contributions
 
-### Tech Stack
+| Project | What | Status |
+|---|---|---|
+| [x402-foundation/x402](https://github.com/x402-foundation/x402/issues/1759) | Feedback: agent onboarding complexity | Open |
+| [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers/pull/157) | Add APIbase remote MCP server | Open |
+| [Rodert/awesome-mcp](https://github.com/Rodert/awesome-mcp/pull/4) | Add APIbase gateway | Open |
+| [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/31) | Add APIbase to AI agents list | Open |
 
-`TypeScript` `Node.js` `PostgreSQL` `Redis` `Docker` `MCP Protocol` `x402` `USDC` `Base L2`
+### Stack
+
+`TypeScript` `Node.js` `PostgreSQL` `Redis` `Docker` `MCP` `x402` `MPP` `USDC` `Base` `Tempo`
+
+### Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/whiteknight-apibase/) · [dev.to](https://dev.to/whiteknightonhorse) · [apibase.pro](https://apibase.pro)
